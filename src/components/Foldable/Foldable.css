@@ -50,5 +50,5 @@
   overflow: hidden;
   max-height: 0px;
   padding: 0;
-  border-top: none;
+  border-top: rgba(41, 53, 70, 0) solid 1px;
 }

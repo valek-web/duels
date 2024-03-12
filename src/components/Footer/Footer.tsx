@@ -1,12 +1,12 @@
 import "./Footer.css"
-import logo from "./../../assets/img/logo.png"
+import Image from "next/image"
 
 export const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
         <div className="footer__wrapper">
-          <img src={logo} alt="logo" />
+          <Image src="/img/logo.png" alt="logo" width={241} height={50} />
           <div className="footer__info">
             <div className="footer__box">
               <div className="footer__img icon-users"></div>

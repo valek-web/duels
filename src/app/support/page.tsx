@@ -1,7 +1,6 @@
-import { Foldable } from "../../components/Foldable/Foldable"
-import "./Support.css"
+import { Foldable } from "@/components/Foldable/Foldable"
 
-export const Support = () => {
+const Support = () => {
   return (
     <section className="support">
       <div className="container">
@@ -36,3 +35,5 @@ export const Support = () => {
     </section>
   )
 }
+
+export default Support

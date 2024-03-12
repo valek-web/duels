@@ -1,5 +1,4 @@
-import "./Main.css"
-export const Main = () => {
+const Main = () => {
   return (
     <section className="promo">
       <div className="container">
@@ -10,3 +9,5 @@ export const Main = () => {
     </section>
   )
 }
+
+export default Main

@@ -1,32 +1,35 @@
-import { NavLink } from "react-router-dom"
-import logo from "./../../assets/img/logo.png"
+"use client"
+import Link from "next/link"
 import "./Header.css"
+import Image from "next/image"
+import { usePathname } from "next/navigation"
 
 export const Header = () => {
+  const pathname = usePathname()
   return (
     <header className="header">
       <div className="container">
         <div className="header__wrapper">
           <div className="header__logo">
-            <NavLink to={"/"}>
-              <img src={logo} alt="logo" />
-            </NavLink>
+            <Link href={"/"}>
+              <Image src="/img/logo.png" alt="logo" width={241} height={50} />
+            </Link>
           </div>
           <ul className="menu">
             <li className="menu__element">
-              <NavLink className={({ isActive }) => (isActive ? "active-link" : "")} to={"/main"}>
+              <Link href={"/"} className={`${pathname === "/" && "active-link"}`}>
                 Главная
-              </NavLink>
+              </Link>
             </li>
             <li className="menu__element">
-              <NavLink className={({ isActive }) => (isActive ? "active-link" : "")} to={"/duels"}>
+              <Link href={"/duels"} className={`${pathname === "/duels" && "active-link"}`}>
                 Дуэли
-              </NavLink>
+              </Link>
             </li>
             <li className="menu__element">
-              <NavLink className={({ isActive }) => (isActive ? "active-link" : "")} to={"/support"}>
+              <Link href={"/support"} className={`${pathname === "/support" && "active-link"}`}>
                 Поддержка
-              </NavLink>
+              </Link>
             </li>
           </ul>
           <div className="header__profile">
