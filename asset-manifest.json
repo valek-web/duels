@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d542ebf6.css",
-    "main.js": "/static/js/main.8908574b.js",
-    "static/media/bg-promo1.jpeg": "/static/media/bg-promo1.d1ecd45f27dfeee3bf34.jpeg",
-    "static/media/footer-desktop.jpg": "/static/media/footer-desktop.9f570c07f4985be0c472.jpg",
-    "static/media/icomoon.svg?aczo08": "/static/media/icomoon.c1373fc468970671e380.svg",
-    "static/media/icomoon.eot?aczo08": "/static/media/icomoon.f25f6df9cc8ad6ea80c1.eot",
-    "static/media/icomoon.woff?aczo08": "/static/media/icomoon.9621c66a6ed4d52c7f2a.woff",
-    "static/media/icomoon.ttf?aczo08": "/static/media/icomoon.498fa06566b432c1b705.ttf",
-    "index.html": "/index.html",
-    "main.d542ebf6.css.map": "/static/css/main.d542ebf6.css.map",
-    "main.8908574b.js.map": "/static/js/main.8908574b.js.map"
+    "main.css": "/duels/static/css/main.8fc6d2eb.css",
+    "main.js": "/duels/static/js/main.8908574b.js",
+    "static/media/bg-promo1.jpeg": "/duels/static/media/bg-promo1.d1ecd45f27dfeee3bf34.jpeg",
+    "static/media/footer-desktop.jpg": "/duels/static/media/footer-desktop.9f570c07f4985be0c472.jpg",
+    "static/media/icomoon.svg?aczo08": "/duels/static/media/icomoon.c1373fc468970671e380.svg",
+    "static/media/icomoon.eot?aczo08": "/duels/static/media/icomoon.f25f6df9cc8ad6ea80c1.eot",
+    "static/media/icomoon.woff?aczo08": "/duels/static/media/icomoon.9621c66a6ed4d52c7f2a.woff",
+    "static/media/icomoon.ttf?aczo08": "/duels/static/media/icomoon.498fa06566b432c1b705.ttf",
+    "index.html": "/duels/index.html",
+    "main.8fc6d2eb.css.map": "/duels/static/css/main.8fc6d2eb.css.map",
+    "main.8908574b.js.map": "/duels/static/js/main.8908574b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d542ebf6.css",
+    "static/css/main.8fc6d2eb.css",
     "static/js/main.8908574b.js"
   ]
 }
