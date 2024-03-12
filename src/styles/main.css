@@ -1,13 +1,13 @@
 .promo {
-  background: no-repeat center/cover url(/img/bg/bg-promo1.jpeg);
-  padding: 167px 0 92px;
+  background: no-repeat bottom center/cover url(/img/bg/bg-promo1.jpeg);
+  padding: 167px 0;
   text-align: center;
 }
 
 .promo__title {
   color: rgb(255, 255, 255);
   font-family: Gotham Pro;
-  font-size: 128px;
+  font-size: 64px;
   font-weight: 700;
   line-height: 122px;
 }
@@ -15,7 +15,7 @@
 .promo__desc {
   color: rgb(255, 255, 255);
   font-family: Gotham Pro;
-  font-size: 37px;
+  font-size: 24px;
   font-weight: 400;
   line-height: 136%;
 }
@@ -38,9 +38,117 @@
   );
   color: rgb(255, 255, 255);
   font-family: Gotham Pro;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 136%;
   margin-top: 70px;
-  margin: 0 auto;
+  margin: 72px auto 0;
+}
+
+.promo__btn:hover {
+  background: linear-gradient(
+    180deg,
+    rgb(53, 255, 110),
+    rgb(35, 218, 75) 0.01%,
+    rgba(53, 255, 97, 0.18) 100%
+  );
+}
+
+/*** instructions ***/
+
+.instructions {
+  padding-bottom: 116px;
+}
+
+.instructions__label {
+  color: rgb(255, 255, 255);
+  font-family: Gotham Pro;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
+}
+
+.instructions__wrapper {
+  display: flex;
+  gap: 21px;
+  margin-top: 35px;
+}
+
+.instruction {
+  border: 1px solid rgb(16, 23, 43);
+  border-radius: 15px;
+  background: rgb(3, 8, 21);
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.2s all;
+}
+
+.instruction:hover {
+  transform: scale(1.03);
+}
+
+.instruction__title {
+  color: rgb(255, 255, 255);
+  font-family: Gotham Pro;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.instruction__label {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  font-family: Gotham Pro;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.instruction__label-blue {
+  background: linear-gradient(180deg, rgb(72, 178, 255), rgb(50, 99, 224) 100%);
+}
+
+.instruction__label-yellow {
+  background: linear-gradient(180deg, rgb(255, 237, 72), rgb(224, 92, 50) 100%);
+}
+
+.instruction__label-green {
+  background: linear-gradient(180deg, rgb(72, 255, 145), rgb(50, 224, 78) 100%);
+}
+
+.instruction__desc {
+  color: rgb(202, 203, 217);
+  font-family: Gotham Pro;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 5%;
+  margin-top: 14px;
+  max-width: 56%;
+  position: relative;
+  z-index: 3;
+}
+
+.instruction__img {
+  position: absolute;
+  right: -58px;
+  bottom: -58px;
+  z-index: 2;
+}
+
+.instruction__img-light {
+  position: absolute;
+  right: -350px;
+  bottom: -350px;
+  z-index: 1;
 }
