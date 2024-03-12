@@ -1,3 +1,4 @@
+import { Present } from "@/components/Present/Present"
 import Image from "next/image"
 
 const Main = () => {
@@ -97,36 +98,10 @@ const Main = () => {
         <div className="container">
           <h2 className="label">Бонусы</h2>
           <div className="presents__wrapper">
-            <div className="present present-a1">
-              <Image
-                src={"/img/present/present.png"}
-                className="present__img present__img-a1"
-                alt="#"
-                width={300}
-                height={300}
-              />
-              <button className="present__btn">ОТКРЫТЬ</button>
-            </div>
-            <div className="present present-a2">
-              <Image
-                src={"/img/present/present_tg.png"}
-                className="present__img present__img-a2"
-                alt="#"
-                width={300}
-                height={300}
-              />
-              <button className="present__btn">ОТКРЫТЬ</button>
-            </div>
-            <div className="present">
-              <Image
-                src={"/img/present/present_vk.png"}
-                className="present__img"
-                alt="#"
-                width={300}
-                height={300}
-              />
-              <button className="present__btn">ОТКРЫТЬ</button>
-            </div>
+            <Present urlImg="/img/present/present.png" classAnimation="present__img-a1" key={1} />
+            <Present urlImg="/img/present/present_tg.png" classAnimation="present__img-a2" key={2} />
+            <Present urlImg="/img/present/present_vk.png" classAnimation="present__img-a3" key={3} />
+
             <Image
               src={"/img/present/red.svg"}
               className="presents-light presents-red"
