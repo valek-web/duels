@@ -1,0 +1,17 @@
+@keyframes present1 {
+  0% {
+    transform: perspective(400px) rotate3d(1, -1, 0, 8deg);
+  }
+  25% {
+    transform: perspective(400px) rotate3d(1, 1, 1, -8deg);
+  }
+  50% {
+    transform: perspective(400px) rotate3d(-1, 1, 0, 0deg);
+  }
+  75% {
+    transform: perspective(400px) rotate3d(1, -1, 1, -8deg);
+  }
+  100% {
+    transform: perspective(400px) rotate3d(1, -1, 0, 8deg);
+  }
+}

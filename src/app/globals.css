@@ -1,4 +1,5 @@
 @import "./../styles/font-icon.css";
+@import "./../styles/animation.css";
 @import "./../styles/support.css";
 @import "./../styles/main.css";
 
@@ -21,4 +22,13 @@ button {
 .main {
   background: rgb(6, 12, 27);
   min-height: 100vh;
+}
+
+.label {
+  color: rgb(255, 255, 255);
+  font-family: Gotham Pro;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 23px;
+  text-align: center;
 }

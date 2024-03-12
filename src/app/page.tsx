@@ -5,14 +5,14 @@ const Main = () => {
     <>
       <section className="promo">
         <div className="container">
-          <div className="promo__title">STANDOFF DUELS</div>
+          <h1 className="promo__title">STANDOFF DUELS</h1>
           <div className="promo__desc">Уважаемые игроки! Открылся проект по дуэялям в Standoff 2</div>
           <button className="promo__btn">Начать играть!</button>
         </div>
       </section>
       <section className="instructions">
         <div className="container">
-          <div className="instructions__label">Как играть дуэли?</div>
+          <h2 className="label">Как играть дуэли?</h2>
           <div className="instructions__wrapper">
             <div className="instruction">
               <div className="instruction__title">
@@ -90,6 +90,57 @@ const Main = () => {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="presents">
+        <div className="container">
+          <h2 className="label">Бонусы</h2>
+          <div className="presents__wrapper">
+            <div className="present present-a1">
+              <Image
+                src={"/img/present/present.png"}
+                className="present__img present__img-a1"
+                alt="#"
+                width={300}
+                height={300}
+              />
+              <button className="present__btn">ОТКРЫТЬ</button>
+            </div>
+            <div className="present present-a2">
+              <Image
+                src={"/img/present/present_tg.png"}
+                className="present__img present__img-a2"
+                alt="#"
+                width={300}
+                height={300}
+              />
+              <button className="present__btn">ОТКРЫТЬ</button>
+            </div>
+            <div className="present">
+              <Image
+                src={"/img/present/present_vk.png"}
+                className="present__img"
+                alt="#"
+                width={300}
+                height={300}
+              />
+              <button className="present__btn">ОТКРЫТЬ</button>
+            </div>
+            <Image
+              src={"/img/present/red.svg"}
+              className="presents-light presents-red"
+              alt="#"
+              width={1600}
+              height={1600}
+            />
+            <Image
+              src={"/img/present/blue.svg"}
+              className="presents-light presents-blue"
+              alt="#"
+              width={1600}
+              height={1600}
+            />
           </div>
         </div>
       </section>

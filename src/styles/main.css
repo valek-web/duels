@@ -52,21 +52,13 @@
     rgb(35, 218, 75) 0.01%,
     rgba(53, 255, 97, 0.18) 100%
   );
+  border: 3px solid rgb(35, 218, 75);
 }
 
 /*** instructions ***/
 
 .instructions {
   padding-bottom: 116px;
-}
-
-.instructions__label {
-  color: rgb(255, 255, 255);
-  font-family: Gotham Pro;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 23px;
-  text-align: center;
 }
 
 .instructions__wrapper {
@@ -83,6 +75,7 @@
   position: relative;
   overflow: hidden;
   transition: 0.2s all;
+  cursor: default;
 }
 
 .instruction:hover {
@@ -151,4 +144,85 @@
   right: -350px;
   bottom: -350px;
   z-index: 1;
+}
+
+/*** presents ***/
+
+.presents {
+  padding-bottom: 35px;
+}
+
+.presents__wrapper {
+  border: 1px solid rgb(16, 23, 43);
+  border-radius: 15px;
+  background: rgb(3, 8, 21);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 55px 92px;
+  margin-top: 35px;
+  position: relative;
+  overflow: hidden;
+}
+
+.present {
+  position: relative;
+  z-index: 1;
+}
+
+.present__img-a1 {
+  /* transform: perspective(400px) rotate3d(1, -1, 0, 8deg); */
+  /* transition: 0.4s; */
+  animation-name: present1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.present__img-a2 {
+  transform: perspective(400px) rotate3d(1, -1, 0, 8deg);
+  transition: 0.4s;
+}
+
+/* .present-a1:hover .present__img-a1 {
+  transform: perspective(400px) rotate3d(1, -1, 0, 0deg);
+} */
+
+.present-a2:hover .present__img-a2 {
+  transform: perspective(400px) rotate3d(1, -1, 0, 0deg);
+}
+
+.present__btn {
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgb(0, 148, 255), rgb(26, 65, 140) 100%);
+  width: 149px;
+  height: 45px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Gotham Pro;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 44px auto 0;
+}
+
+.present__btn:hover {
+  background: linear-gradient(180deg, rgb(0, 148, 255), rgb(0, 148, 255) 100%);
+}
+
+.presents-light {
+  position: absolute;
+}
+
+.presents-blue {
+  top: -533px;
+  left: 0;
+}
+
+.presents-red {
+  bottom: -533px;
+  right: 0;
 }
