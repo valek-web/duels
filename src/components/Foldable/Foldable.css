@@ -52,3 +52,19 @@
   padding: 0;
   border-top: rgba(41, 53, 70, 0) solid 1px;
 }
+
+@media screen and (max-width: 576px) {
+  .foldable {
+    padding: 12px;
+  }
+
+  .foldable__header {
+    gap: 10px;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .foldable__body {
+    padding: 12px;
+  }
+}

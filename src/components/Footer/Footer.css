@@ -64,3 +64,19 @@
 .footer__socialnetwork a:hover {
   color: #fff;
 }
+
+@media screen and (max-width: 576px) {
+  .footer__title {
+    font-size: 28px;
+  }
+  .footer__box {
+    gap: 10px;
+  }
+  .footer__img {
+    font-size: 40px;
+  }
+  .footer__label {
+    line-height: 15px;
+    font-size: 12px;
+  }
+}

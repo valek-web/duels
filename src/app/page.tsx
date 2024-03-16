@@ -98,24 +98,21 @@ const Main = () => {
         <div className="container">
           <h2 className="label">Бонусы</h2>
           <div className="presents__wrapper">
-            <Present urlImg="/img/present/present.png" classAnimation="present__img-a1" key={1} />
-            <Present urlImg="/img/present/present_tg.png" classAnimation="present__img-a2" key={2} />
-            <Present urlImg="/img/present/present_vk.png" classAnimation="present__img-a3" key={3} />
-
-            <Image
-              src={"/img/present/red.svg"}
-              className="presents-light presents-red"
-              alt="#"
-              width={1600}
-              height={1600}
-            />
-            <Image
-              src={"/img/present/blue.svg"}
-              className="presents-light presents-blue"
-              alt="#"
-              width={1600}
-              height={1600}
-            />
+            <Present urlImg="/img/present/tg.png" title="Телеграмм" isDone={false} linkBtn="#" btnType="tg">
+              Подпишитесь на наш телеграмм и получите бонус на баланс.
+            </Present>
+            <Present urlImg="/img/present/vk.png" title="Вконтакте" isDone={false} linkBtn="#" btnType="vk">
+              Подпишитесь на наш телеграмм и получите бонус на баланс.
+            </Present>
+            <Present
+              urlImg="/img/present/youTube.png"
+              title="Ютуб"
+              isDone={false}
+              linkBtn="#"
+              btnType="youtube"
+            >
+              Подпишитесь на наш телеграмм и получите бонус на баланс.
+            </Present>
           </div>
         </div>
       </section>

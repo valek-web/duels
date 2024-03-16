@@ -13,9 +13,15 @@ button {
   cursor: pointer;
 }
 
-.container {
+.container-header {
   max-width: 1600px;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1520px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -31,4 +37,91 @@ button {
   font-weight: 700;
   line-height: 23px;
   text-align: center;
+}
+
+@media screen and (max-width: 1560px) {
+  .container-header {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .container-header {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container-header {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container-header {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-header {
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container-header {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .label {
+    font-size: 20px;
+  }
 }
