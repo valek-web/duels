@@ -18,7 +18,6 @@
 
 .support__title {
   color: rgb(255, 255, 255);
-  font-family: Gotham Pro;
   font-size: 40px;
   font-weight: 400;
   line-height: 48px;
@@ -26,7 +25,6 @@
 
 .support__desc {
   color: rgb(207, 209, 221);
-  font-family: Gotham Pro;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
@@ -34,7 +32,6 @@
 
 .support__btn {
   color: rgb(255, 255, 255);
-  font-family: Gotham Pro;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;

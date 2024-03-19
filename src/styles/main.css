@@ -6,7 +6,6 @@
 
 .promo__title {
   color: rgb(255, 255, 255);
-  font-family: Gotham Pro;
   font-size: 64px;
   font-weight: 700;
   line-height: 122px;
@@ -14,7 +13,6 @@
 
 .promo__desc {
   color: rgb(255, 255, 255);
-  font-family: Gotham Pro;
   font-size: 24px;
   font-weight: 400;
   line-height: 136%;
@@ -37,7 +35,6 @@
     rgba(53, 255, 97, 0.18) 100%
   );
   color: rgb(255, 255, 255);
-  font-family: Gotham Pro;
   font-size: 24px;
   font-weight: 700;
   line-height: 136%;
@@ -87,7 +84,6 @@
 
 .instruction__title {
   color: rgb(255, 255, 255);
-  font-family: Gotham Pro;
   font-size: 20px;
   font-weight: 700;
   line-height: 23px;
@@ -104,7 +100,6 @@
   justify-content: center;
   border-radius: 6px;
   color: rgb(255, 255, 255);
-  font-family: Gotham Pro;
   font-size: 19px;
   font-weight: 700;
   line-height: 19px;
@@ -124,7 +119,6 @@
 
 .instruction__desc {
   color: rgb(202, 203, 217);
-  font-family: Gotham Pro;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;

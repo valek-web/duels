@@ -1,6 +1,6 @@
 import { resultType } from "../types/globalType"
 
-export interface duel {
+export interface duelI {
   map: string
   mapImg: string
   bet: number
@@ -10,3 +10,7 @@ export interface duel {
   timezone: string
   id: number
 }
+
+// export interface duelOpen extends duelI {
+
+// }

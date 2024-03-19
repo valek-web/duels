@@ -1,5 +1,5 @@
 import { makeAutoObservable } from "mobx"
-import { duel } from "../interfaces/profileI"
+import { duelI } from "../interfaces/duels"
 
 class Profile {
   balance: number = 0
@@ -10,7 +10,7 @@ class Profile {
   lesions: number = 0
   id: number = 0
   imgProfile: string = ""
-  duels: Array<duel> = []
+  duels: Array<duelI> = []
   constructor() {
     makeAutoObservable(this, {}, { deep: true })
   }
