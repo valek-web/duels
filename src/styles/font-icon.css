@@ -45,7 +45,6 @@
 }
 .icon-discord:before {
   content: "\e902";
-  color: #5865f2;
 }
 .icon-telegram:before {
   content: "\ea95";
