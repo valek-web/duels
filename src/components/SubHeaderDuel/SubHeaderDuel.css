@@ -1,0 +1,54 @@
+.subheader-duel {
+  padding: 20px;
+  border-radius: 12px;
+  background: rgb(5, 9, 20);
+  display: grid;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.subheader-duel__warning {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.subheader-duel__warning-img-message {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.subheader-duel__timer {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: center;
+}
+
+.subheader-duel__map {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.subheader-duel__map-label {
+  color: rgb(107, 127, 157);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: right;
+}
+
+.subheader-duel__map-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: right;
+}

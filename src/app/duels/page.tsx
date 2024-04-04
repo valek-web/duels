@@ -1,7 +1,5 @@
-import { Duel } from "@/components/Duel/Duel"
 import { DuelList } from "@/components/DuelList/DuelList"
 import { DuelsBtn } from "@/components/DuelsBtn/DuelsBtn"
-import Image from "next/image"
 
 const Duels = () => {
   return (

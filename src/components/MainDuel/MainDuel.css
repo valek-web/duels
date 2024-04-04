@@ -1,0 +1,29 @@
+.main-duel {
+  border-radius: 12px;
+  background: rgb(5, 9, 20);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.main-duel__body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.main-duel__bold {
+  font-weight: 600;
+}
+
+.main-duel__blue {
+  color: rgb(0, 163, 255);
+}
+
+.main-duel__green {
+  color: rgb(0, 255, 56);
+}
+
+.main-duel__red {
+  color: rgb(255, 0, 0);
+}

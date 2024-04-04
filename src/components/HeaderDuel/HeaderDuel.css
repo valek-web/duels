@@ -1,0 +1,36 @@
+.duel-info__header {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  justify-content: center;
+}
+.duel-profile__nickname {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 43px;
+}
+
+.duel-profile__id {
+  color: rgb(118, 132, 152);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.duel-profile__img {
+  border-radius: 100%;
+  width: 117px;
+  height: 117px;
+  overflow: hidden;
+}
+
+.duel-profile {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.duel-profile-first {
+  text-align: right;
+}

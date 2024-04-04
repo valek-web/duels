@@ -12,6 +12,7 @@ class Duels {
     { id: "winerLot", title: "Высокий винрейт" },
   ]
   currentFilter: itemSelect = { id: "descending", title: "По убыванию" }
+  myDuel: string = ""
 
   constructor() {
     makeAutoObservable(this)

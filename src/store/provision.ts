@@ -3,6 +3,8 @@ import { makeAutoObservable } from "mobx"
 class Provision {
   load: boolean = false
   authorize: boolean = false
+  id: number = 1243
+  token: string | null = null
   messageError: string = ""
   constructor() {
     makeAutoObservable(this)

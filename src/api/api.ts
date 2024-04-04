@@ -1,10 +1,10 @@
 import axios from "axios"
 
 const server = axios.create({
-  baseURL: "https://api.example.com",
+  baseURL: "https://04d0-94-143-197-243.ngrok-free.app/",
 })
 
-const getDuels = async (offset: number) => {
-  let response = await server.get(`/api/duels?offset=${offset}`)
+export const getDuels = async (offset: number) => {
+  let response = await server.get(`duels/open`)
   return response.data
 }
