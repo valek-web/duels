@@ -4,7 +4,7 @@ import { SubHeaderDuel } from "../SubHeaderDuel/SubHeaderDuel"
 import currentDuel from "@/store/currentDuel"
 import provision from "@/store/provision"
 import { MainDuel } from "../MainDuel/MainDuel"
-import { getDuels } from "@/api/api"
+import { Dispute } from "../Dispute/Dispute"
 
 export const DuelPage = () => {
   const { status, profile1, profile2 } = currentDuel
@@ -29,18 +29,19 @@ export const DuelPage = () => {
   if (status === "open") {
     return <div>Второй игрок еще не найден!</div>
   }
-  const test = async () => {
-    const x = await getDuels(2)
-    console.log(x)
-  }
+  // const test = async () => {
+  //   const x = await getDuels(2)
+  //   console.log(x)
+  // }
   useEffect(() => {
-    test()
+    // test()
   })
   return (
     <>
       <HeaderDuel />
       <SubHeaderDuel />
-      <MainDuel />
+      <MainDuel status={status} />
+      <Dispute />
     </>
   )
 }

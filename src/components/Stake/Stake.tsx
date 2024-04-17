@@ -6,7 +6,7 @@ import "./Stake.css"
 
 export const Stake = observer(() => {
   const { maxStake, minStake, setMaxStake, setMinStake } = duels
-
+  console.log("render Stake")
   const onChangeMaxStake = (event: React.ChangeEvent<HTMLInputElement>) => {
     let newMaxStake = Number(event.target.value)
     if (newMaxStake <= minStake) {

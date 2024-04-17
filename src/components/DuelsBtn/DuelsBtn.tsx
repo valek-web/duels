@@ -8,6 +8,7 @@ import { observer } from "mobx-react-lite"
 
 export const DuelsBtn = observer(() => {
   const { filters, currentFilter, setCurrentFilter, setDefoult } = Duels
+  console.log("render DuelsBtn")
   return (
     <>
       <button className="duels__button duels__button--blue">

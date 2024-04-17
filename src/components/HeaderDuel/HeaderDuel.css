@@ -34,3 +34,63 @@
 .duel-profile-first {
   text-align: right;
 }
+
+@media screen and (max-width: 1200px) {
+  .duel-profile__img {
+    width: 100px;
+    height: 100px;
+  }
+  .duel-profile__img img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .img-vs {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-vs {
+    width: 120px;
+  }
+
+  .duel-profile__img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .duel-profile__img img {
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .duel-info__header {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+
+  .duel-profile-first {
+    flex-direction: column-reverse !important;
+  }
+
+  .duel-profile {
+    flex-direction: column;
+  }
+  .img-vs {
+    height: 100px;
+    width: 220px;
+  }
+  .duel-profile__img img {
+    width: 200px;
+    height: 200px;
+  }
+  .duel-profile__img {
+    width: 200px;
+    height: 200px;
+  }
+}

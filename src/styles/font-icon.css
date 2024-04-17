@@ -1,9 +1,9 @@
 @font-face {
   font-family: "icomoon";
-  src: url("/fonts/icomoon.eot?wt927p");
-  src: url("/fonts/icomoon.eot?wt927p#iefix") format("embedded-opentype"),
-    url("/fonts/icomoon.ttf?wt927p") format("truetype"), url("/fonts/icomoon.woff?wt927p") format("woff"),
-    url("/fonts/icomoon.svg?wt927p#icomoon") format("svg");
+  src: url("/fonts/icomoon.eot?9949cd");
+  src: url("/fonts/icomoon.eot?9949cd#iefix") format("embedded-opentype"),
+    url("/fonts/icomoon.ttf?9949cd") format("truetype"), url("/fonts/icomoon.woff?9949cd") format("woff"),
+    url("/fonts/icomoon.svg?9949cd#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-add-file:before {
+  content: "\e90d";
+}
+.icon-send:before {
+  content: "\e909";
+}
 .icon-plus:before {
   content: "\e904";
 }
@@ -51,6 +57,24 @@
 }
 .icon-vk:before {
   content: "\ea98";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-rocket:before {
+  content: "\e9a5";
+}
+.icon-hammer2:before {
+  content: "\e9a8";
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+.icon-power-cord:before {
+  content: "\e9b7";
+}
+.icon-google:before {
+  content: "\ea88";
 }
 .icon-link:before {
   content: "\e903";

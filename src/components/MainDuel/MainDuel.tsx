@@ -1,7 +1,19 @@
 import React from "react"
 import "./MainDuel.css"
 
-export const MainDuel = () => {
+type propsType = {
+  status: string
+}
+
+export const MainDuel: React.FC<propsType> = (props) => {
+  const copyLink = async (text: string) => {
+    try {
+      await navigator.clipboard.writeText(text)
+      console.log("Текст успешно скопирован в буфер обмена!")
+    } catch (err) {
+      console.error("Ошибка:", err)
+    }
+  }
   return (
     <div className="main-duel">
       <div className="main-duel__body">
@@ -15,9 +27,22 @@ export const MainDuel = () => {
         раз в течение 24 часов. Иначе ваш аккаунт на нашем сервисе будет заблокирован на сутки!
       </div>
       <div className="main-duel__footer">
-        <div className="main-duel__lobby"></div>
+        <div className="main-duel__lobby">
+          <div className="main-duel__lobby-link">
+            Ссылка на лобби:{" "}
+            <a href={"#"}>
+              https:/linkstandolf2.com/wfobbwfoin/85003d8
+              1863fad068000c04c2?token=LkBiwUfsN26pN13TYEqhCUMiu0ArUH
+            </a>
+          </div>
+          <button className="main-duel__btn main-duel__btn--icon" onClick={() => copyLink("TExt link")}>
+            <span className="icon-copy"></span>
+          </button>
+        </div>
         <div className="main-duel__btns">
-          <button className="button">Готово</button>
+          <button className="main-duel__btn">В лобби</button>
+          <button className="main-duel__button main-duel__button--btn-red">Отмена</button>
+          <button className="main-duel__button main-duel__button--btn-green">Готово</button>
         </div>
       </div>
     </div>

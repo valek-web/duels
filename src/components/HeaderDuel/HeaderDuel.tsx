@@ -24,7 +24,7 @@ export const HeaderDuel = () => {
           <Image src={"/img/profile/profile__def.jpg"} width={117} height={117} alt="#" />
         </div>
       </div>
-      <Image src={"/img/vs.svg"} alt="#" width={304} height={217} />
+      <Image src={"/img/vs.svg"} alt="#" width={304} height={217} className="img-vs" />
       <div className="duel-profile">
         <div className="duel-profile__img">
           <Image src={"/img/profile/profile__def.jpg"} width={117} height={117} alt="#" />

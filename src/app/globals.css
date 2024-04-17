@@ -136,4 +136,8 @@ button {
   .label {
     font-size: 20px;
   }
+
+  .duel-info {
+    padding: 30px 0 !important;
+  }
 }
