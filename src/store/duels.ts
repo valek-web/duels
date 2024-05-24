@@ -13,6 +13,8 @@ class Duels {
   ]
   currentFilter: itemSelect = { id: "descending", title: "По убыванию" }
   myDuel: string = ""
+  idMap: number = 1
+  stake: number = 500
 
   constructor() {
     makeAutoObservable(this)
@@ -31,6 +33,12 @@ class Duels {
     this.currentFilter = { id: "descending", title: "По убыванию суммы" }
     this.minStake = 80
     this.maxStake = 1000000
+  }
+  setIdMap = (id: number) => {
+    this.idMap = id
+  }
+  setStake = (stake: number) => {
+    this.stake = stake
   }
 }
 

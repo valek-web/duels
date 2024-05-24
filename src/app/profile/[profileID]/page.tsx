@@ -1,9 +1,12 @@
+import { ProfilePage } from "@/components/ProfilePage/ProfilePage"
 import React from "react"
 
 const ProfileID = ({ params }: { params: { profileID: string } }) => {
   return (
-    <section style={{ color: "#fff" }}>
-      <div className="container">{params.profileID}</div>
+    <section className="profile">
+      <div className="container">
+        <ProfilePage />
+      </div>
     </section>
   )
 }

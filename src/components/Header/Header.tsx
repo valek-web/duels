@@ -40,7 +40,9 @@ export const Header = () => {
             </li>
           </ul>
           <div className="header__profile">
-            <button className="header__btn">Войти</button>
+            <button className="header__btn">
+              <span className="icon-vk-login"></span>
+            </button>
           </div>
         </div>
       </div>
