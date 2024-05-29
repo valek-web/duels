@@ -1,3 +1,4 @@
+import { getDuelsOpen } from "@/api/api"
 import { filterType, itemSelect } from "./../types/globalType"
 import { makeAutoObservable } from "mobx"
 
@@ -39,6 +40,15 @@ class Duels {
   }
   setStake = (stake: number) => {
     this.stake = stake
+  }
+  getDuels = async () => {
+    try {
+      const res = await getDuelsOpen()
+      debugger
+      this.duels = res
+    } catch (e) {
+      console.log(e)
+    }
   }
 }
 
